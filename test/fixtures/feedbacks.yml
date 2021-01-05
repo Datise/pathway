@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  observation: MyString
+  feeling: MyString
+  need: MyString
+  request: MyString
+
+two:
+  observation: MyString
+  feeling: MyString
+  need: MyString
+  request: MyString

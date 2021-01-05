@@ -1,0 +1,12 @@
+<h1> Send feedback to: </h1>
+<div class="box">
+    <div class="main-box">
+        <div id="menu">
+            <ul>
+                <% @friends.each do | friend | %>
+                    <li> <%= link_to friend.username, new_feedback_path(friend_id: friend.id) %>
+                <% end %>
+            </ul>
+        </div>
+    </div>
+</div>
